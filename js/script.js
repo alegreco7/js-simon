@@ -34,7 +34,7 @@ function startGame() {
 
       // Mostra il risultato
       alert("Hai indovinato " + correctNumbers.length + " numeri: " + correctNumbers.join(", "));
-    }, 5000);
+    }, 30000);
 }
 
 startGame();
